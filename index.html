@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <meta name="author" content="Mehak Rajput" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="script" type="text/javascript" href="./script.js" />
+    <title>Mehak Rajput</title>
+  </head>
+  <body class="light" id="top">
+    <header class="header center">
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#info">About Me</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#education">Education</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#skills">Skills</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#contact">Contact</a>
+          </li>
+        </ul>
+
+        <button type="button" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button>
+
+        <button
+          type="button"
+          aria-label="toggle navigation"
+          class="btn btn--icon nav__hamburger"
+        >
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- About -->
+      <div class="about center">
+        <img style="height: 350px; width: 300px; float: center;" src="mehak.jpg" alt="Image description">
+        <h1>Hi, I am <span class="about__name">Mehak Rajput</span></h1>
+        <h2 class="about__role">Mental Hospital Patient</h2>
+        <p class="about__desc">
+         I am an Insane Girl coming directly from Mental Hospital so please bare with me "Hum pagal nahi hai hamara dimaag kharab hai !!". My talents are I like to make reels on Instagram and annoy my friends.
+        </p>
+
+        <div class="about__contact center">
+          <a href="./Resume.pdf" target="_blank">
+            <span class="btn btn--outline">Resume</span>
+          </a>
+        </div>
+      </div>
+
+      <section id="info" class="section info">
+        <div>
+        <h2 class="section__title">About me</h2>
+        <section class="subsection">
+          <section>
+            <h2>Academic Honesty</h2>
+            <p>
+              I declare that my assessment is wholly my own work in accordance
+              with Seneca Academic Policy. No part of this assessment has been
+              copied manually or electronically from any other source (including
+              web sites) except for the information supplied by the WEB222
+              instructors and / or made available in this assessment for my use.
+              I also declare that no part of this assignment has been
+              distributed to other students.
+            </p>
+          </section>
+          <section>
+            <h2>Basic Information</h2>
+            <div>
+              <table>
+                <tbody>
+                  <tr>
+                    <th align="left">Name</th>
+                    <td>Mehak Rajput</td>
+                  </tr>
+                  <tr>
+                    <th align="left">Date</th>
+                    <td>18th Aug, 2023</td>
+                  </tr>
+                  <tr>
+                    <th align="left">Course</th>
+                    <td>Web Programming Principles</td>
+                  </tr>
+                  <tr>
+                    <th align="left">Section</th>
+                    <td>???</td>
+                  </tr>
+                  <tr>
+                    <th align="left">ID</th>
+                    <td>???</td>
+                  </tr>
+                  <tr>
+                    <th align="left">Instructor</th>
+                    <td> ???</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+        </section>
+            </div>
+      </section>
+      <div class="divider"></div>
+      <!-- Education -->
+      <section class="section" id="education">
+        <div>
+        <h2 class="section__title">Education</h2>
+        <section class="education_list">
+          <section class="education">
+            <h3>12th Intermediate</h3>
+            <p>Kites Junior College</p>
+            <span>2016</span>
+          </section>
+          <section class="education">
+            <h3>School</h3>
+            <p>St. Peters Public School</p>
+            <span>2014</span>
+          </section>
+          </section>
+        </div>
+      </section>
+      <div class="divider"></div>
+      <!-- Projects -->
+      <div class="divider"></div>
+      <!-- Skills -->
+      <section class="section skills" id="skills">
+        <div>
+        <h2 class="section__title">Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__list-item btn btn--plain">HTML</li>
+          <li class="skills__list-item btn btn--plain">CSS</li>
+          <li class="skills__list-item btn btn--plain">SCSS</li>
+          <li class="skills__list-item btn btn--plain">JavaScript</li>
+          <li class="skills__list-item btn btn--plain">C++</li>
+          <li class="skills__list-item btn btn--plain">React</li>
+          <li class="skills__list-item btn btn--plain">DBS</li>
+          <li class="skills__list-item btn btn--plain">SQL</li>
+          <li class="skills__list-item btn btn--plain">GraphQL</li>
+        </ul>
+        </div>
+      </section>
+      <div class="divider"></div>
+      <!-- Contact -->
+      <section class="section contact" id="contact">
+        <div>
+        <h2 class="section__title">Contact</h2>
+        <form id="form">
+          <div>
+            <label for="name">Name</label>
+            <input value="" name="name" id="name" />
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input value="" name="email" id="email" type="email" />
+          </div>
+          <div>
+            <label for="add">Address</label>
+            <input value="" name="add" id="add" />
+          </div>
+          <div>
+            <label for="city">City</label>
+            <input value="" name="city" list="cities" id="city" />
+            <datalist id="cities">
+              <option value="Toronto" />
+              <option value="Barrie" />
+              <option value="Vancouver" />
+              <option value="Scarborough" />
+              <option value="Ottawa" />
+            </datalist>
+          </div>
+          <div>
+            <label for="postal">Postal Code</label>
+            <input
+              value=""
+              name="postal"
+              id="postal"
+              pattern="^[ABCEGHJ-NPRSTVXYabceghj-nprstvxy]\d[ABCEGHJ-NPRSTV-Zabceghj-nprstv-z][ -]?\d[ABCEGHJ-NPRSTV-Zabceghj-nprstv-z]\d$"
+            />
+          </div>
+          <div>
+            <label for="about">What is this about?</label>
+            <fieldset name="about" id="about">
+              <span>
+                <input
+                  id="job"
+                  type="radio"
+                  value="Job Offer"
+                  name="about"
+                />
+                <label for="job">Job Offer</label>
+              </span>
+              <span>
+                <input
+                  id="school"
+                  type="radio"
+                  value="School"
+                  name="about"
+                />
+                <label for="school">School</label>
+              </span>
+              <span>
+                <input
+                  id="other"
+                  type="radio"
+                  value="Other"
+                  name="about"
+                />
+                <label for="other">Other</label>
+              </span>
+            </fieldset>
+          </div>
+          <div style="display: none" id="topic">
+            <label for="rate">Topic</label>
+            <input type="text" min="0" step="0.25" name="Topic" id="topic" />
+          </div>
+          <div>
+            <label for="text">Message</label>
+            <textarea name="message" id="text" rows="5"></textarea>
+          </div>
+          <button type="submit" class="btn btn--outline">Submit</button>
+        </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">     
+        Created By Mehak Rajput
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
